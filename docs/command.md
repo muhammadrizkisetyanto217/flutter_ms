@@ -6,6 +6,9 @@ muhammadrizkisetyanto@MacBook-Air-Muhammad flutter_ppkd % flutter build web
 # Upload ke vercel
 muhammadrizkisetyanto@MacBook-Air-Muhammad flutter_ppkd % vercel --prod build/web
 
+# Jadikan Hp bisa mengakses wifi 
+muhammadrizkisetyanto@MacBook-Air-Muhammad ~ % emulator -avd Pixel_3a_API_34_extension_level_7_arm64-v8a -dns-server 8.8.8.8,8.8.4.4
+
 
 # Masuk ke sql lite
 
