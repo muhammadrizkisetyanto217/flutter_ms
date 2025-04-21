@@ -7,14 +7,14 @@ import 'package:flutter_ms/presentation/component/user/input_user_component.dart
 import 'package:flutter_ms/presentation/teacher-staff/login-register/register/cubit/register_cubit.dart';
 import 'package:flutter_ms/presentation/teacher-staff/login-register/register/cubit/register_state.dart';
 
-class RegisterPage extends StatefulWidget {
-  const RegisterPage({super.key});
+class RegisterScreen extends StatefulWidget {
+  const RegisterScreen({super.key});
 
   @override
-  State<RegisterPage> createState() => _RegisterPageState();
+  State<RegisterScreen> createState() => _RegisterScreenState();
 }
 
-class _RegisterPageState extends State<RegisterPage> {
+class _RegisterScreenState extends State<RegisterScreen> {
   final TextEditingController nameController = TextEditingController();
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();

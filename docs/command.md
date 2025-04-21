@@ -24,7 +24,7 @@ Buka file AndroidManifest.xml di Flutter project kamu:
 📂 android/app/src/main/AndroidManifest.xml
 
 hasilnya
-run-as com.example.flutter_ppkd
+run-as com.example.flutter_ms
 cd databases
 
 

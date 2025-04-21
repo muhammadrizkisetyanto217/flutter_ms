@@ -2,8 +2,7 @@ import 'dart:convert';
 import 'package:dio/dio.dart';
 
 class AuthServiceRegister {
-  static const String _baseUrl =
-      'https://arabiya-syari-fiber-production.up.railway.app';
+  static const String _baseUrl = 'https://quiz-fiber-production.up.railway.app';
 
   final Dio _dio = Dio(
     BaseOptions(

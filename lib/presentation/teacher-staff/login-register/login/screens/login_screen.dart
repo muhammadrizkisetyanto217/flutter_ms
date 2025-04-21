@@ -8,14 +8,14 @@ import 'package:flutter_ms/presentation/teacher-staff/login-register/login/cubit
 import 'package:flutter_ms/presentation/teacher-staff/login-register/login/cubit/login_state.dart';
 import 'package:go_router/go_router.dart';
 
-class LoginPage extends StatefulWidget {
-  const LoginPage({super.key});
+class LoginScreen extends StatefulWidget {
+  const LoginScreen({super.key});
 
   @override
-  State<LoginPage> createState() => _LoginPageState();
+  State<LoginScreen> createState() => _LoginScreenState();
 }
 
-class _LoginPageState extends State<LoginPage> {
+class _LoginScreenState extends State<LoginScreen> {
   // Controller untuk menangani input email dan password
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();

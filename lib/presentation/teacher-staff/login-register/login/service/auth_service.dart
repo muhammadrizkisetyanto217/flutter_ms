@@ -3,7 +3,7 @@ import 'package:flutter_ms/presentation/teacher-staff/login-register/login/model
 
 class AuthServiceLogin {
   static const String _baseUrl =
-      'https://arabiya-syari-fiber-production.up.railway.app'; // ✅ Simpan URL di sini
+      'https://quiz-fiber-production.up.railway.app'; // ✅ Simpan URL di sini
 
   final Dio _dio = Dio(
     BaseOptions(
